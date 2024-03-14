@@ -12,17 +12,14 @@ class Solution {
                 count++;
                 if(chr[i]>=97&&chr[i]<=122){
                     chr[i] -=32;
-                }
-                    
+                }   
             } else  {
                 count++;
                 if(chr[i]>=65&&chr[i]<=90) {
                     chr[i] +=32;
                 }
-            }
-            
+            }   
         }
-        
         return answer=String.valueOf(chr);
     }
 }
