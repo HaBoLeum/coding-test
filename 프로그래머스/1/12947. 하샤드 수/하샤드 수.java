@@ -8,7 +8,6 @@ class Solution {
         
         while(num>0) {
             list.add(num%10);
-            System.out.print(num%10);
             num /=10;
         }
         
