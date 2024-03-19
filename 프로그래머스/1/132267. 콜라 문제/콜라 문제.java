@@ -5,7 +5,7 @@ class Solution {
         int remain = 0;
         boolean temp = true;
         
-        while(temp) {
+        while(n>=b) {
             num=0;
             if(n%a==0) {
                 num = (n/a)*b;
